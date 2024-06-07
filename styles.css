@@ -1,0 +1,56 @@
+*{
+box-sizing: border-box;
+font-family: serif;
+}
+
+body{
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    background-color: chartreuse;
+    padding: 20px;
+    width: 800px;
+}
+
+em{
+    color: blue;
+    font-weight: 700;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+h1,h2,h3{
+    color: #6F2CF4;
+}
+
+.table{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 10px;
+}
+
+.means{
+    list-style: none;
+    line-height: 35px;
+    font-weight: 600;
+}
+
+.get:hover{
+    cursor: pointer;
+}
+
+.get{
+    color: #FF0000;
+}
+
